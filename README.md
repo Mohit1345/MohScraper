@@ -1,6 +1,6 @@
 # Web Scraper Project
 
-This is a Python project that allows you to scrape web content and save it as a PDF and DOCX file. The project supports different scraping methods based on the provided URL.
+This is a Python project that allows you to scrape web content and save it as a PDF and DOCX file. The project supports different scraping methods based on the provided URL.This is a Python project that allows you to scrape web content from various sources and save it as a PDF and DOCX file. The project supports scraping data from blogs, news websites, educational resources, tech websites, recipes, and more. Please note that this project does not support or endorse any illegal scraping activities.
 
 ## Functionality
 
@@ -52,6 +52,8 @@ print("Content:", content)
 
 # Future Releases
 We are excited to announce that a new version of this web scraper project will be released soon, featuring a web user interface (UI). This new version will be more powerful with the added capabilities of AI to scrape data. Stay tuned for updates!
+
+We want to emphasize that this project promotes ethical and legal scraping practices. Please ensure that you have proper permission or adhere to the website's terms of service when scraping data.
 
 Feel free to modify and enhance the project as per your requirements. Contributions are welcome.
 
