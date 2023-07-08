@@ -50,7 +50,7 @@ print("Title:", title)
 print("Content:", content)
 ```
 
-#Future Releases
+# Future Releases
 We are excited to announce that a new version of this web scraper project will be released soon, featuring a web user interface (UI). This new version will be more powerful with the added capabilities of AI to scrape data. Stay tuned for updates!
 
 Feel free to modify and enhance the project as per your requirements. Contributions are welcome.
