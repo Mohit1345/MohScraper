@@ -1,0 +1,6 @@
+pdfkit
+PyMuPDF
+python-docx
+docx2pdf
+pyppeteer
+PyPDF2
