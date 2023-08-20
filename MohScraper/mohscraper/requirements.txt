@@ -1,0 +1,9 @@
+Django
+pyppeteer
+pdfkit
+weasyprint
+fitz
+PyMuPDF
+PyPDF2
+docx
+docx2pdf

@@ -1,0 +1,106 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            body {
+                background: linear-gradient(to bottom, #2c3e50, #34495e);
+                {% comment %} color: #; {% endcomment %}
+                font-family: Arial, sans-serif;
+            }
+            /* Reset some default styling */
+html, body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #f0f0f0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the header */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the content */
+#content {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Style the button */
+button {
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Style the link within the button */
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Add hover effect to the button */
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Center the button horizontally */
+button a {
+    display: block;
+    width: 100%;
+}
+
+/* Add some spacing below the button */
+button + script {
+    margin-top: 20px;
+}
+
+/* Add responsive styles for small screens */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 20px;
+    }
+    #content {
+        padding: 10px;
+    }
+}
+</style>
+    </head>
+    <body>
+        <h2>Scrapped Data is </h2>
+        <br>
+        {{content}}
+<br>
+        <button><a href ="{% url "download_pdf" %}" >Download PDF</a></button>
+        <script src="" async defer></script>
+    </body>
+</html>
